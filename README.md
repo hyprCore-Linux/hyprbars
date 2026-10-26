@@ -34,3 +34,9 @@ Load the plugin from `~/.local/lib/hyprland/plugins` or `/usr/local/lib/hyprland
 The image is drawn **on top of** the solid/gradient fill and **under** the title and buttons, so PNG alpha shows the fill through.
 
 Example tiles are in `examples/`. Copy `hyprbars.so` to `libhyprbars.so` in the Hyprland plugin directory.
+
+## License
+
+GNU General Public License v3.0. See [LICENSE](LICENSE).
+
+This tree is a fork of [hyprwm/hyprland-plugins hyprbars](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprbars). The original plugin is BSD 3-Clause, Copyright (c) 2023, Hypr Development. That notice is kept in [NOTICE](NOTICE).
