@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate colorful seamless bar_image test tiles for Neuronix hyprbars."""
+"""Generate colorful seamless bar_image test tiles for hyprCore Linux hyprbars."""
 
 from __future__ import annotations
 

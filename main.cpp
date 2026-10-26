@@ -76,7 +76,7 @@ static void damageAllBars() {
     }
 }
 
-// Neuronix: replace button with the same action in-place so gtk-theme can
+// Replace a button with the same action in-place so gtk-theme can
 // re-send hyprbars-button keywords without duplicating chrome buttons.
 Hyprlang::CParseResult onNewButton(const char* K, const char* V) {
     std::string                 v = V;
@@ -340,7 +340,7 @@ APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle) {
 
     HyprlandAPI::reloadConfig();
 
-    return {"hyprbars", "A plugin to add title bars to windows.", "Vaxry / Neuronix", "1.1"};
+    return {"hyprbars", "A plugin to add title bars to windows.", "Vaxry", "1.1"};
 }
 
 APICALL EXPORT void PLUGIN_EXIT() {

@@ -554,7 +554,7 @@ void CHyprBar::renderPass(PHLMONITOR pMonitor, const float& a) {
         glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
     }
 
-    // Base fill: solid, blur, or two-stop gradient (Neuronix).
+    // Base fill: solid, blur, or two-stop gradient.
     if (useGradient) {
         const bool rtl = gradDir == "rtl";
         auto       gtex = hyprbarsGradientTexture(color, color2, rtl);
