@@ -12,10 +12,9 @@ Fork of [hyprwm/hyprland-plugins hyprbars](https://github.com/hyprwm/hyprland-pl
 Needs `hyprland-dev` matching the running compositor and `pangocairo`.
 
 ```bash
-cd Packages/hyprbars
-make -j"$(nproc)"
-mkdir -p ~/.local/lib/hyprland/plugins
-cp -f hyprbars.so ~/.local/lib/hyprland/plugins/libhyprbars.so
+cd Packages/hyprPlugins/hyprbars
+./build.sh
+./build.sh --disable     # remove the plugin from the next Hyprland login
 ```
 
 Load the plugin from `~/.local/lib/hyprland/plugins` or `/usr/local/lib/hyprland/plugins` on the next Hyprland login. Do **not** `hyprctl plugin load` after hyprbars is already up, and do **not** `hyprctl reload` on this machine.
